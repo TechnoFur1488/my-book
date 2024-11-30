@@ -13,5 +13,9 @@ export default {
   
   project: {
     link: 'https://github.com/shuding/nextra'
+  },
+
+  footer: {
+    text: "© 2024 The SyntaxSphere Project."
   }
 }
