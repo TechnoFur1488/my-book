@@ -1,12 +1,19 @@
 {
-  "index": {
-    "title": "Домашняя страница",
-    "type": "page",
-    "theme": {
-      "typesetting": "article",
-      "sidebar": false,
-      "toc": false,
-      "breadcrumb": false
+    "index": {
+        "title": "Домашняя страница",
+        "type": "page",
+        "theme": {
+            "typesetting": "article",
+            "sidebar": false,
+            "toc": false,
+            "breadcrumb": false
+        }
+    },
+    "documentation": {
+        "title": "Документация",
+        "type": "page",
+        "theme": {
+            "toc": false
+        }
     }
-  }
-}
+}   

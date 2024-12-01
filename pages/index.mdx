@@ -1,1 +1,14 @@
-# asd
+import s from "./index.module.css"
+import Link from 'next/link';
+
+<h1 className={s.h1Study }>Научись программировать вместе с SyntaxSphere</h1>
+
+<p className={s.topText}>Простые учебники по языкам программирования  для самых маленьких</p>
+
+export function Main({ children }) {
+  return (
+    <Link href="/documentation/choose">{children}</Link>
+  )
+}
+ 
+<Main>**<div className={s.divButton}><span>Начать изучать</span></div>**</Main>

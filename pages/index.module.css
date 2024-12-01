@@ -1,0 +1,23 @@
+.h1Study {
+    width: 900px;
+    font-weight: bold;
+}
+
+.topText {
+    margin: 41px 0 53px;
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.divButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 46px;
+    color: white;
+    background-color: #0479FF;
+    border-radius: 10px;
+}
+

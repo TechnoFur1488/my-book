@@ -32,9 +32,9 @@
     "app/App.jsx",
     "layouts/HomeLayout.tsx",
     "next-env.d.ts",
-    "theme.config.jsx",
+    "pages/theme.tsx",
     ".next/types/**/*.ts"
-, "pages/_app.js", "pages/index.mdx"  ],
+, "pages/_app.js", "pages/test/index.mdx"  ],
   "exclude": [
     "node_modules"
   ]
