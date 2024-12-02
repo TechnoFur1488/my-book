@@ -6,14 +6,12 @@
             "typesetting": "article",
             "sidebar": false,
             "toc": false,
-            "breadcrumb": false
+            "breadcrumb": false,
+            "layout": "full"
         }
     },
     "documentation": {
         "title": "Документация",
-        "type": "page",
-        "theme": {
-            "toc": false
-        }
+        "type": "page"
     }
 }   

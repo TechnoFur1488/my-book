@@ -1,5 +1,6 @@
 import s from "./index.module.css"
 import Link from 'next/link';
+import Image from "next/image"
 
 <h1 className={s.h1Study }>Научись программировать вместе с SyntaxSphere</h1>
 
@@ -12,3 +13,24 @@ export function Main({ children }) {
 }
  
 <Main>**<div className={s.divButton}><span>Начать изучать</span></div>**</Main>
+
+<div className={s.containerTop}>
+  <div className={s.backImgCreate}>
+    <h3 className={s.h3Create}>Научись создавать сайт всего за час</h3>
+    <Image
+      src="/images/image.svg"
+      alt="картинка"
+      width={532}
+      height={318}
+    />
+    <Main>**<Image className={s.btnNext}
+      src="/images/Group 3.svg"
+      alt="картинка"
+      width={36}
+      height={36}
+    />**</Main>
+  </div>
+  <div className={s.myBook}>
+    <h3>в нашей книге сможет разобраться даже ваша бабушка</h3>
+  </div>
+</div>

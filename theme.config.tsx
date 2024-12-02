@@ -1,7 +1,8 @@
 import Image from "next/image"
 
-
 export default {
+  
+
     logo: <>
         <Image
             src="/images/Group 83.svg"

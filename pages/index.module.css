@@ -1,11 +1,16 @@
 .h1Study {
-    width: 900px;
+    margin-top: 41px;
+    font-size: 64px;
+    width: 933px;
     font-weight: bold;
+    background: linear-gradient(to right, #f0f0f0, #333333);
+    color: transparent;
+    background-clip: text;
 }
 
 .topText {
     margin: 41px 0 53px;
-    width: 600px;
+    width: 640px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -21,3 +26,45 @@
     border-radius: 10px;
 }
 
+.containerTop {
+    padding: 33px 0;
+}
+
+.backImgCreate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 874px;
+    height: 424px;
+    background-image: url("../public/images/image\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h3Create {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 27px 0;
+    color: white;
+}
+
+.btnNext {
+    opacity: 0;
+    position: relative;
+    bottom: 60%;
+    left: 1100%;
+    transition: opacity 0.5s ease;
+}
+
+.backImgCreate:hover .btnNext {
+    opacity: 1;
+}
+
+.myBook {
+    width: 100%;
+    height: 200px;
+    background-image: url("../public/images/Group\ 85.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
