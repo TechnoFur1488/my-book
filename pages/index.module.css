@@ -27,7 +27,10 @@
 }
 
 .containerTop {
-    padding: 33px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0 95px;
 }
 
 .backImgCreate {
@@ -35,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 874px;
+    width: 874px;
     height: 424px;
     background-image: url("../public/images/image\ \(1\).svg");
     background-repeat: no-repeat;
@@ -62,9 +65,104 @@
 }
 
 .myBook {
-    width: 100%;
-    height: 200px;
-    background-image: url("../public/images/Group\ 85.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 440px;
+    background-image: url("../public/images/Group\ 85.png");
     background-repeat: no-repeat;
-    /* background-size: cover; */
+}
+
+.h3Grand {
+    text-align: center;
+    font-size: 32px;
+    width: 243px;
+    color: black;
+}
+
+.divWhatFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.divWhat {
+    width: 914px;
+    height: 427px;
+    background-image: url("../public/images/Group\ 86.png");
+    background-repeat: no-repeat;
+}
+
+.divWhatText{
+    padding-top: 67px;
+    text-align: center;
+    height: 232px;
+    width: 262px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.divBig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 671px;
+    height: 452px;
+    border-radius: 30px;
+    background-color: #202020;
+}
+
+.divBigText {
+    padding-top: 14px;
+    width: 383px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 558px;
+    height: 175px;
+    border-radius: 30px;
+    background-color: #202020;
+}
+
+.fDivText {
+    width: 376px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 558px;
+    height: 175px;
+    border-radius: 30px;
+    background-color: #202020;
+}
+
+.sDivText {
+    width: 376px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.divMany {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divManyS {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
